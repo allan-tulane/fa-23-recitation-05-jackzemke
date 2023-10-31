@@ -8,7 +8,6 @@ All coding portions should go in `main.py` as usual.
 
 Please check this material https://github.com/allan-tulane/cmps2200-slides/blob/main/module-06-greedy/greedy-02.ipynb
 
-
 ## Fixed-Length vs. Variable-Length Codes
 
 In class we looked at the Huffman coding algorithm for data
@@ -42,7 +41,6 @@ ratio of Huffman coding cost to fixed-length coding cost. Do you see a
 consistent trend? If so, what is it?
 
 **enter answer in `answers.md`**
-
 
 **e)** Suppose that we used Huffman coding on a document with alphabet $\Sigma$ in
   which every character had the same frequency. What is the expected
