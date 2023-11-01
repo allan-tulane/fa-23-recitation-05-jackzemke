@@ -86,7 +86,7 @@ def huffman_cost(C, f):
     return count
     
 
-f = get_frequencies('fields.c')
+f = get_frequencies('test.txt')
 # print(f)
 # # print(len(f))
 # # print(f.keys())
@@ -97,5 +97,5 @@ T = make_huffman_tree(f)
 C = get_code(T)
 print("Huffman cost:  %d" % huffman_cost(C, f))
 
-# for char, encoding in C.items():
-#     print(f"Character: {char}, Encoding: {encoding}")
+for char, encoding in C.items():
+    print(f"Character: {char}, Encoding: {encoding}")
